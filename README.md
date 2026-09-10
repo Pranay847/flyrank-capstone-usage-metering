@@ -26,3 +26,4 @@ Free: 1,000 API calls and 100,000 AI tokens/month. Pro: 50,000 calls and 5,000,0
 ## Limitations
 
 The checkout URL and webhook source are deterministic Stripe test fixtures; no real payment is attempted. Production would replace only the Stripe gateway while preserving the verified event contract.
+> **Work in progress:** Read [REVIEW_STATUS.md](REVIEW_STATUS.md) before evaluating. Earlier descriptions below include prototype claims; the status file explicitly lists unverified and missing requirements.

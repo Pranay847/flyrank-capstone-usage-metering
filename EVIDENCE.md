@@ -10,3 +10,4 @@
 - Background durability and alerting: `reconciliation job survives storage and alerts on mismatch`.
 
 Run `npm test`; expected: 8 pass, 0 fail.
+> **Evidence scope correction:** Test names below describe fixture tests only. They do not establish full capstone completion. See [REVIEW_STATUS.md](REVIEW_STATUS.md) for gaps.
