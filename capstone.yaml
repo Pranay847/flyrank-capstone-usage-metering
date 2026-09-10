@@ -1,0 +1,11 @@
+run: node src/server.js
+seed: node src/seed.js
+test: node --test
+base_url: http://localhost:3300
+endpoints:
+  - POST /api/generate
+  - POST /api/calls
+  - GET /api/usage
+  - POST /api/checkout
+  - POST /webhooks/stripe
+  - POST /api/jobs/reconcile
